@@ -1,0 +1,84 @@
+/* Style untuk section upcoming event */
+
+.blog-details h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+  }
+  
+   .blog-details {
+      background-color: #0ca7d2;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    .event {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+  
+    .event-image img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .masthead {
+      min-height: 30rem;
+      position: relative;
+      display: table;
+      width: 100%;
+      height: auto;
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+      background: linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 0.1) 0%,
+          rgba(255, 255, 255, 0.1) 100%
+        ),
+        url("../assets/img/cans.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .masthead h1,
+  .masthead .h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    color: #ff0000; /* Ganti dengan kode warna yang Anda inginkan */
+  }
+  
+  @media (min-width: 992px) {
+    .masthead {
+      height: 100vh;
+    }
+    .masthead h1,
+    .masthead .h1 {
+      font-size: 5.5rem;
+      color: #ffff; /* Ganti dengan kode warna yang Anda inginkan */
+    }
+  }
+  
+  /* image blogs */
+  .event-images {
+    display: flex;
+    justify-content: center; /* Menyeting foto secara horizontal */
+    align-items: center; /* Memusatkan vertikal */
+    gap: 10px; /* Jarak antara foto-foto */
+  }
+  
+  .event-image {
+    flex: 1; /* Mengisi ruang yang tersedia */
+    max-width: 300px; /* Lebar maksimum foto */
+  }
+  
+  .event-image img {
+    width: 100%; /* Foto mengisi seluruh lebar parent */
+    height: auto; /* Biarkan tinggi otomatis menyesuaikan proporsi */
+    border-radius: 5px; /* Atur radius sudut bingkai */
+  }
+  
+  
