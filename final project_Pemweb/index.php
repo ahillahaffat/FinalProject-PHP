@@ -53,7 +53,7 @@
           <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
         </li>
         <li class="sidebar-nav-item">
-          <a href="login.html"
+          <a href="login.php"
             ><i class="fas fa-sign-in-alt"></i> Login/Sign Up</a
           >
         </li>
@@ -74,12 +74,11 @@
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-lg-10">
             <h2>
-              Stylish Portfolio is the perfect theme for your next project!
+              About Us!
             </h2>
             <p class="lead mb-5">
-              This theme features a flexible, UX friendly sidebar menu and stock
-              photos from our friends at
-              <a href="https://unsplash.com/">Unsplash</a>
+              How do you feel?
+              <a href=" "> </a>
               !
             </p>
             <a class="btn btn-dark btn-xl" href="#services">What We Offer</a>
@@ -110,8 +109,8 @@
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-pencil"></i>
             </span>
-            <h4><strong>Redesigned</strong></h4>
-            <p class="text-faded mb-0">Freshly redesigned for none 5.</p>
+            <h4><strong>Inovatif</strong></h4>
+            <p class="text-faded mb-0">Inovatif</p>
           </div>
           <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
@@ -119,9 +118,7 @@
             </span>
             <h4><strong>Favorited</strong></h4>
             <p class="text-faded mb-0">
-              Millions of users
-              <i class="fas fa-heart"></i>
-              Start none!
+              Platform untuk membantu kebutuhan warga desa!
             </p>
           </div>
           <div class="col-lg-3 col-md-6">
@@ -129,18 +126,20 @@
               <i class="icon-mustache"></i>
             </span>
             <h4><strong>Question</strong></h4>
-            <p class="text-faded mb-0">I mustache you a question...</p>
+            <p class="text-faded mb-0">Untuk solusi dan keadilan bagi warga desa...</p>
           </div>
         </div>
       </div>
     </section>
-    <!-- Callout-->
-    <section class="callout">
-      <div class="container px-4 px-lg-5 text-center">
-        <h2 class="mx-auto mb-5">Welcome to next website!</h2>
-        <a class="btn btn-primary btn-xl" href="page-events.html">Load More</a>
-      </div>
-    </section>
+    
+   <!-- Callout-->
+<section class="callout">
+  <div class="container px-4 px-lg-5 text-center">
+    <h2 class="mx-auto mb-5 text-white">Welcome to our website!</h2>
+    <a class="btn btn-primary btn-xl" href="page-events.php">Load More</a>
+  </div>
+</section>
+
 
     <!-- Portfolio-->
     <section class="content-section" id="portfolio">
@@ -151,7 +150,7 @@
         </div>
         <div class="row gx-0">
           <div class="col-lg-6">
-            <a class="portfolio-item" href="page-events.html">
+            <a class="portfolio-item" href="detail-lbh.php">
               <div class="caption">
                 <div class="caption-content">
                   <div class="h2">Lembaga Bantuan Hukum</div>
@@ -171,7 +170,7 @@
             </a>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="page-events.html">
+            <a class="portfolio-item" href="page-events.php">
               <div class="caption">
                 <div class="caption-content">
                   <div class="h2">Event Details</div>
@@ -191,7 +190,7 @@
             </a>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="page-events.html">
+            <a class="portfolio-item" href="page-events.php">
               <div class="caption">
                 <div class="caption-content">
                   <div class="h2">UMKM</div>
@@ -211,7 +210,7 @@
             </a>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="page-events.html">
+            <a class="portfolio-item" href="page-events.php">
               <div class="caption">
                 <div class="caption-content">
                   <div class="h2">Workspace</div>
@@ -241,18 +240,20 @@
       </div>
     </section>
 
-    <!-- Map-->
-    <div class="map" id="contact">
-      <iframe
-        src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"
-      ></iframe>
-      <br />
-      <small
-        ><a
-          href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"
-        ></a
-      ></small>
-    </div>
+<!-- Map-->
+<div class="map" id="contact">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.5970730041914!2d112.78835471476704!3d-7.333737274728703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fab87edcad15%3A0xb26589947991eea1!2sUniversitas%20Pembangunan%20Nasional%20%22Veteran%22%20Jawa%20Timur!5e0!3m2!1sen!2sid!4v1623529506071!5m2!1sen!2sid"
+    width="600"
+    height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+  ></iframe>
+  <br />
+  <small><a href="https://goo.gl/maps/dv8a9hhnXsVDk4g26" target="_blank">Lihat di Google Maps</a></small>
+</div>
+
 
     <!-- Footer-->
     <footer class="footer text-center">
@@ -274,7 +275,7 @@
             ></a>
           </li>
         </ul>
-        <p class="text-muted small mb-0">Copyright &copy; Your Website 2023</p>
+        <p class="text-muted small mb-0">Copyright &copy; Kelompok 8 Pemrograman Web 2023</p>
       </div>
     </footer>
 

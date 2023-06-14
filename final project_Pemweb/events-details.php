@@ -68,7 +68,7 @@
           <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
         </li>
         <li class="sidebar-nav-item">
-          <a href="login.html"
+          <a href="login.php"
             ><i class="fas fa-sign-in-alt"></i> Login/Sign Up</a
           >
         </li>
@@ -78,8 +78,8 @@
     <header class="masthead d-flex align-items-center">
       <div class="container px-4 px-lg-5 text-center">
         <h1 class="mb-1">Welcome To Our Fest</h1>
-        <h3 class="mb-5"><em>Wiraradja Expanding Awardness</em></h3>
-        <a class="btn btn-primary btn-xl" href="index.html">Back To Home</a>
+        <h3 class="mb-5">Wiraradja Expanding Awardness</h3>
+        <a class="btn btn-primary btn-xl" href="index.php">Back To Home</a>
       </div>
     </header>
 
@@ -89,67 +89,89 @@
         <div class="row">
           <div class="blog-single col-md-8 col-md-offset-2">
             </div>
-            <h1>Wiraradja Expanding Awardness : Rindu Lukisan Merasuk Di Badan</h1>
+            <h1 class="custom-font-blog">Wiraradja Expanding Awardness : Rindu Lukisan Merasuk Di Badan</h1>
             <div class="blog-detail">
               Posted <span>10 June 2023</span> by Admin
             </div>
-            <div class="blog-content">
+            <div class="blog-content"> </div>
               <p>Acara "Expanding Awardness: Rindu Lukisan Merasuk Di Badan" akan menghadirkan beberapa pelukis ternama seperti Nasirun, Bob Sick, Ugo Untoro, dan Djumaldi Alfi. Setiap pelukis ini memiliki gaya dan karya yang unik;
                 
                <p> Nasirun, seorang pelukis terkenal Indonesia, dikenal dengan karyanya yang mengeksplorasi keindahan alam dan kehidupan sehari-hari dengan sentuhan abstrak. Lukisannya menciptakan suasana yang memukau dengan penggunaan warna yang kaya dan kontras yang dramatis. </p>       
                <p>Bob Sick, seorang pelukis kontemporer yang telah mendapatkan pengakuan internasional, menciptakan karya dengan gaya yang eksperimental dan unik. Karyanya seringkali menggabungkan berbagai teknik, termasuk lukisan, kolase, dan elemen tiga dimensi, menciptakan komposisi yang menarik dan penuh makna.</p>                  
                 <p>Ugo Untoro, seorang seniman Indonesia yang berbakat, dikenal dengan karya-karya lukisan figuratifnya yang penuh ekspresi. Karyanya sering kali menggambarkan emosi manusia dan perjuangan dalam kehidupan, dengan sentuhan artistik yang kuat dan kontras yang menarik.</p>
                <p> Djumaldi Alfi, seorang pelukis realis Indonesia, terkenal dengan keahliannya dalam menciptakan lukisan yang tampak hidup dan detail. Karyanya sering kali menggambarkan pemandangan alam, potret manusia, atau objek-objek sehari-hari dengan ketelitian yang luar biasa.</p>               
-               <p> Acara ini akan mempersembahkan karya-karya luar biasa dari para pelukis ini, memberikan pengunjung kesempatan untuk terpesona dan terinspirasi oleh keunikan dan keindahan setiap karya yang dipamerkan. Jangan lewatkan kesempatan untuk menikmati pameran ini yang akan membawa Anda dalam perjalanan seni yang menakjubkan.</p>
-               <h1>Nasirun :</h1>
-               <div class="event-images">
-                <div class="event-image">
+               <p style="margin-bottom: 100px;">Acara ini akan mempersembahkan karya-karya luar biasa dari para pelukis ini, memberikan pengunjung kesempatan untuk terpesona dan terinspirasi oleh keunikan dan keindahan setiap karya yang dipamerkan. Jangan lewatkan kesempatan untuk menikmati pameran ini yang akan membawa Anda dalam perjalanan seni yang menakjubkan.</p>
+
+               <!-- Jarak antara paragraf dan elemen <div> -->
+               <div class="container px-4 px-lg-5">
+                 <div class="content-section-heading">
+               <div class="container px-4 px-lg-5 text-center">
+                <h1 class="custom-font">Profil Perupa</h1>
+              </div>              
+               <div class="image-slideshow">
+                <div class="image fade">
                   <img src="assets/img/nasirun.jpeg" alt="" />
                 </div>
-                <div class="event-image">
-                    <img src="assets/img/nasirun-art.jpeg" alt="" />
-                  </div>
-                <div class="event-image">
-                  <img src="assets/img/nasirun-art-2.jpeg" alt="" />
-                </div>
-                <div class="event-image">
-                  <img src="assets/img/Do'a untuk Bui by Nasirun.jpeg" alt="" />
-                </div>
-              </div>
-               <h1>Bob Sick :</h1>
-               <div class="event-images">
-                <div class="event-image">
-                  <img src="assets/img/lukisan1.jpeg" alt="" />
-                </div>
-                <div class="event-image">
-                    <img src="assets/img/god-aku-coming.jpeg" alt="" />
-                  </div>
-                <div class="event-image">
+                <div class="image fade">
                   <img src="assets/img/bobfoto-05.png" alt="" />
                 </div>
-                <div class="event-image">
-                  <img src="assets/img/lukisan2.jpeg" alt="" />
+                <div class="image fade">
+                  <img src="assets/img/ugo.jpeg" alt="" />
+                </div>
+                <div class="image fade">
+                  <img src="assets/img/jumaldi.jpeg" alt="" />
                 </div>
               </div>
-              <h1>Ugo Untoro :</h1>
-              <div class="event-images">
-               <div class="event-image">
-                 <img src="assets/img/ugo.jpg" alt="" />
-               </div>
-               <div class="event-image">
-                   <img src="assets/img/god-aku-coming.jpeg" alt="" />
-                 </div>
-               <div class="event-image">
-                 <img src="assets/img/bobfoto-05.png" alt="" />
-               </div>
-               <div class="event-image">
-                 <img src="assets/img/lukisan2.jpeg" alt="" />
-               </div>
-             </div>
- 
-
-   
-
+        
+          <!-- style container tujuan -->
+              <section class="upcoming-events">
+                <div class="container px-4 px-lg-5 text-center">
+                  <h1>Tujuan kami dalam acara ini</h1>
+                  <div class="container text-center mt-4">
+                    <div class="vector-container">
+                      <img src="assets/img/vector.png" alt="Vector Illustration" class="vector-image" />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="event">
+                        <div class="event-details">
+                          <h3>Sedekah Desa</h3>
+                          <div class="event-meta">
+                            <span class="date">ART FEST</span> | <span class="location">District Of Wiraradja</span>
+                          </div>
+                          <p>Description of the event. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus nulla eu ex aliquam bibendum.</p>
+                          <a href="events-details.php" class="btn btn-primary">Detail Events</a>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <div class="col-md-4">
+                      <div class="event">
+                        <div class="event-details">
+                          <h3>Sedekah Desa</h3>
+                          <div class="event-meta">
+                            <span class="date">Ruwahan</span> | <span class="location">Sendang</span>
+                          </div>
+                          <p>Description of the event. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus nulla eu ex aliquam bibendum.</p>
+                          <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <div class="col-md-4">
+                      <div class="event">
+                        <div class="event-details">
+                          <h3>Sedekah Desa</h3>
+                          <div class="event-meta">
+                            <span class="date">Ruwahan</span> | <span class="location">Sendang</span>
+                          </div>
+                          <p>Description of the event. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus nulla eu ex aliquam bibendum.</p>
+                          <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                      </div>
+                    </div>
+            
 
     <!-- Footer-->
     <footer class="footer text-center">

@@ -68,7 +68,7 @@
           <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
         </li>
         <li class="sidebar-nav-item">
-          <a href="login.html"
+          <a href="login.php"
             ><i class="fas fa-sign-in-alt"></i> Login/Sign Up</a
           >
         </li>
@@ -77,13 +77,31 @@
     <!-- Header-->
     <header class="masthead d-flex align-items-center">
       <div class="container px-4 px-lg-5 text-center">
-        <a class="btn btn-primary btn-xl" href="index.html">Back To Home</a>
+        <a class="btn btn-primary btn-xl" href="index.php">Back To Home</a>
       </div>
     </header>
 
 
+    <!-- konklusi -->
+ <div class="container px-4 px-lg-5 text-center">
+  <div class="vector-container-dua">
+    <img src="assets/img/revolution.png" alt="Vector Illustration" class="vector-image" />
+  </div>
+
+  <div class="container px-4 px-lg-5 text-center">
+    <h1>Art, Freedom, and Justice</h1>
+    <div class="narrative-container">
+      <p>Wiraradja Expanding Awareness merupakan acara seni rupa yang bertujuan untuk memajukan daerah dan mendorong kemajuan melalui karya seni. Seperti kota-kota seni terkenal di Eropa, salah satunya Venice, keberadaan seni memiliki peran yang sangat penting dalam mendorong perkembangan suatu daerah.</p>
+      <p>Venice menjadi contoh sukses karena seni telah menjadi tulang punggung kemajuan kota tersebut. Seni dan budaya menjadi daya tarik utama bagi wisatawan dari seluruh dunia. Kota ini menjadi pusat kreativitas, inspirasi, dan kolaborasi antara seniman, budayawan, dan penggiat seni lainnya. Melalui festival seni yang terkenal, seperti Venice Biennale, kota ini mampu menarik minat pengunjung dan memberikan kontribusi signifikan pada sektor pariwisata dan ekonomi kreatif.</p>
+      <p>Dalam konteks Wiraradja Expanding Awareness, kami ingin menerapkan pendekatan serupa untuk memajukan daerah kami. Melalui acara ini, kami berharap dapat menciptakan gelombang baru kesadaran dan apresiasi terhadap seni di daerah kami. Kami ingin menciptakan lingkungan yang mendukung pertumbuhan seniman lokal, kolaborasi, dan inovasi. Selain itu, acara ini juga menjadi sarana untuk mengedukasi masyarakat tentang peran penting seni dalam kehidupan sehari-hari dan sebagai alat untuk menyampaikan pesan-pesan sosial dan lingkungan yang relevan.</p>
+      <p>Dengan semangat ini, Wiraradja Expanding Awareness berkomitmen untuk memajukan daerah kami melalui kekuatan seni. Kami berharap dapat menciptakan perubahan yang nyata dan positif, meningkatkan ekonomi kreatif, menciptakan lapangan kerja baru, serta memperkuat identitas budaya setempat. Dengan adanya dukungan dan partisipasi dari masyarakat dan para penggiat seni, kami yakin bahwa acara ini akan memberikan dampak yang signifikan dan berkelanjutan bagi kemajuan daerah kami secara keseluruhan.</p>
+    </div>
+  </div>
+  </div>
+
  <!-- section upcoming event -->
- <section class="content-section bg-light" id="about">
+    <div class="container px-4 px-lg-5">
+    <div class="container text-center mt-4">
  <section class="upcoming-events">
   <div class="container">
     <h2>Upcoming Events</h2>
@@ -99,11 +117,10 @@
               <span class="date">ART FEST </span> | <span class="location">District Of Wiraradja</span>
             </div>
             <p>Description of the event. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus nulla eu ex aliquam bibendum.</p>
-            <a href="events-details.html" class="btn btn-primary">Detail Events</a>
+            <a href="event-details2.php" class="btn btn-primary">Detail Events</a>
           </div>
         </div>
       </div>
-
       <div class="col-md-4">
         <div class="event">
           <div class="event-image">
@@ -115,7 +132,7 @@
               <span class="date">Ruwahan </span> | <span class="location">Sendang</span>
             </div>
             <p>Description of the event. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus nulla eu ex aliquam bibendum.</p>
-            <a href="#" class="btn btn-primary">Learn More</a>
+            <a href="event-details2.php" class="btn btn-primary">Detail Events</a>
           </div>
         </div>
       </div>
@@ -131,13 +148,26 @@
               <span class="date">Sosialiasi</span> | <span class="location">Kelurahan</span>
             </div>
             <p>Description of the event. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus nulla eu ex aliquam bibendum.</p>
-            <a href="section-event.html" class="btn btn-primary">Learn More</a>
+            <a href="event-details2.php" class="btn btn-primary">Detail Events</a>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
+</div>
+</div>
 </section>
+
+<!-- Vector -->
+<div class="container px-4 px-lg-5 text-center">
+  <h1>Datang dan jadilah agen perubahan di masa mendatang!</h1>
+  <div class="container text-center mt-4">
+    <div class="vector-container-dua">
+      <img src="assets/img/abstract.png" alt="Vector Illustration" class="vector-image" />
+    </div>
+    <h1>Wiraradja Art Fest 2K23</h1>
+  </div>
 
     <!-- Footer-->
     <footer class="footer text-center">

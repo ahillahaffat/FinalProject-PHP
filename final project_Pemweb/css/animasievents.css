@@ -1,17 +1,18 @@
 /* Style untuk section upcoming event */
-
-
 .upcoming-events h2 {
   margin-bottom: 40px;
   font-size: 36px;
   text-align: center;
-  color: #333;
+  color: #ffffff;
 }
 
  .upcoming-events {
-    background-color: #0ca7d2;
+    background-color: #0a7390;
     padding: 40px;
-    border-radius: 8px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
@@ -61,4 +62,45 @@
     font-size: 5.5rem;
     color: #ffff; /* Ganti dengan kode warna yang Anda inginkan */
   }
+}
+
+.vector-container-dua {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.vector-image {
+  max-width: 40%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.vector-container-dua:hover .vector-image {
+  transform: scale(1.1);
+}
+
+.container {
+  margin-bottom: 40px; /* Jarak antara container dengan warna biru */
+}
+
+.narrative-container {
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: justify;
+  background-color: #f9f9f9;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.narrative-container p {
+  margin-bottom: 20px;
+}
+
+.container h1 {
+  font-family: "catilde", sans-serif; /* Ganti "Arial" dengan font yang diinginkan */
+}
+
+.container h2 {
+  font-family: "monicay", sans-serif; /* Ganti "Arial" dengan font yang diinginkan */
 }

@@ -73,3 +73,19 @@ function fadeIn(el, display) {
         }
     })();
 };
+  // Mengambil semua elemen gambar dengan class "img-profile"
+  const images = document.querySelectorAll('.img-profile');
+
+  // Menambahkan event listener click pada setiap elemen gambar
+  images.forEach((image) => {
+    image.addEventListener('click', function() {
+      if (this.style.transform === 'scale(1.2)') {
+        // Mengembalikan ukuran semula jika sudah diperbesar sebelumnya
+        this.style.transform = 'scale(1)';
+      } else {
+        // Memperbesar gambar saat diklik
+        this.style.transform = 'scale(1.2)';
+        this.style.transition = 'transform 0.3s ease';
+      }
+    });
+  });

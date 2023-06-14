@@ -8,7 +8,7 @@
   }
   
    .blog-details {
-      background-color: #0ca7d2;
+      background-color: #eec10d;
       padding: 40px;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -62,23 +62,189 @@
     }
   }
   
-  /* image blogs */
-  .event-images {
-    display: flex;
-    justify-content: center; /* Menyeting foto secara horizontal */
-    align-items: center; /* Memusatkan vertikal */
-    gap: 10px; /* Jarak antara foto-foto */
+/* image blogs */
+.event-images {
+  display: flex;
+  justify-content: center; /* Menyeting foto secara horizontal */
+  align-items: center; /* Memusatkan vertikal */
+  gap: 10px; /* Jarak antara foto-foto */
+}
+
+.event-image {
+  flex: 1; /* Mengisi ruang yang tersedia */
+  max-width: 300px; /* Lebar maksimum foto */
+}
+
+.event-image img {
+  width: 100%; /* Foto mengisi seluruh lebar parent */
+  height: 100%; /* Set tinggi gambar menjadi 100% */
+  border-radius: 5px; /* Atur radius sudut bingkai */
+  object-fit: cover; /* Memotong dan mengubah ukuran gambar agar sesuai dengan kotak */
+  object-position: center; /* Posisikan gambar di tengah */
+}
+
+.vector-container {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.vector-image {
+  max-width: 50%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.vector-container:hover .vector-image {
+  transform: scale(1.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.image-slideshow {
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.image {
+  flex: 0 0 auto;
+  width: 80%;
+  height: auto;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  width: 100%;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
   }
-  
-  .event-image {
-    flex: 1; /* Mengisi ruang yang tersedia */
-    max-width: 300px; /* Lebar maksimum foto */
+  to {
+    opacity: 1;
   }
-  
-  .event-image img {
-    width: 100%; /* Foto mengisi seluruh lebar parent */
-    height: auto; /* Biarkan tinggi otomatis menyesuaikan proporsi */
-    border-radius: 5px; /* Atur radius sudut bingkai */
+}
+.container h1 {
+  font-family: "catilde", sans-serif; /* Ganti "Arial" dengan font yang diinginkan */
+}
+.container h3 {
+  font-family: "catilde", sans-serif; /* Ganti "Arial" dengan font yang diinginkan */
+}
+
+/* Event-2 */
+/* styles.css */
+
+.img-profile {
+  width: 300px; /* ukuran sedikit besar */
+  border-radius: 10px; /* border radius */
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2); /* shadow */
+}
+
+
+/* container tujuan */
+.event-container {
+  background-color: #0f95b7;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.event-container:before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  animation: glow 2s infinite;
+}
+
+.event-container h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.event-container .event-meta {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.event-container p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.event-container img {
+  display: block;
+  margin: 20px auto;
+  max-width: 60%;
+  height: auto;
+}
+
+@keyframes glow {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
   }
-  
-  
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.vector-container-dua {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.vector-image {
+  max-width: 50%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.vector-container-dua:hover .vector-image {
+  transform: scale(1.1);
+}
+
+.container {
+  margin-bottom: 40px; /* Jarak antara container dengan warna biru */
+}
+
+.narrative-container {
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: justify;
+  background-color: #f9f9f9;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.narrative-container p {
+  margin-bottom: 20px;
+}
+
+ 
